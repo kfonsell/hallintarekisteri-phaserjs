@@ -98,15 +98,15 @@ var Game = function (_Phaser$Game) {
       this.load.spritesheet('bug', 'graphics/bug_squash.ss.png', 464, 553);
       this.load.spritesheet('party', 'graphics/logos_squash.ss.png', 600, 600);
       this.load.spritesheet('restart', 'graphics/restart.png', 497, 99);
-      this.load.image('bg', 'graphics/bg2.jpg');
+      this.load.image('bg', 'graphics/bg.png');
 
       this.load.audio('clock', 'sounds/ting.mp3');
       this.load.audio('squash', 'sounds/kaboom.mp3');
       this.load.audio('gameover', 'sounds/applause.mp3');
       this.load.audio('talk0', 'sounds/snort.mp3');
       this.load.audio('talk1', 'sounds/fart.mp3');
-      this.load.audio('talk2', 'sounds/beep.mp3');
-      this.load.audio('talk3', 'sounds/bell.mp3');
+      this.load.audio('talk2', 'sounds/snort.mp3');
+      this.load.audio('talk3', 'sounds/fart.mp3');
     }
   }]);
 
